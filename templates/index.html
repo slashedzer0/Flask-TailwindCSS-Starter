@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <title>Index</title>
+</head>
+
+<body>
+  <div class="text-center leading-10 h-screen flex flex-col justify-center">
+    <h1 class="text-3xl">Flask and Tailwind CSS is set!</h1>
+    <div>
+      <p>Read the docs: <a class="underline text-blue-500" href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a>
+        | <a class="underline text-blue-500" href="https://tailwindcss.com/docs/installation" target="_blank">Tailwind CSS</a></p>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>
