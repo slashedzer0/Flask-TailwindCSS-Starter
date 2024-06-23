@@ -3,4 +3,5 @@ __pycache__
 .venv
 node_modules
 static/css/style.css
+.gitignore
 requirements.txt
