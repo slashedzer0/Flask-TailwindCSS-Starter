@@ -1,7 +1,0 @@
-__pycache__
-.ruff_cache
-.venv
-node_modules
-static/css/style.css
-.gitignore
-requirements.txt
